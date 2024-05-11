@@ -1,0 +1,103 @@
+body {
+    font-family:'Poppins' , sans-serif;
+    background: linear-gradient(135deg, #636269, #1b1b3a); 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    padding: 60px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #f6f8f9, #b9cee0);
+    color: #333; 
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+h3 {
+    text-align: center;
+    color: #333;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+input[type="text"], input[type="email"], input[type="password"], select, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+input[type="file"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+}
+    input[type="submit"] {
+    background-color:#18bd1d;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 400px;
+}
+input[type="submit"]:hover {
+    background-color: #18bd1d;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #FF4500;
+    box-shadow: 0 0 5px rgba(255, 69, 0, 0.6);
+}
+input[type="password"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #FF4500;
+    box-shadow: 0 0 5px rgba(255, 69, 0, 0.6);
+}
+input[type="phone number"]:focus,
+input[type="phone number"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #FF4500;
+    box-shadow: 0 0 5px rgba(255, 69, 0, 0.6);
+    width: 300%;
+}
+.team-members {
+    margin-top: 20px;
+}
+.team-members label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.team-members ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.team-members li {
+    margin-bottom: 5px;
+}
